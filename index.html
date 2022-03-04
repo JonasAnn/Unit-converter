@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="main_header">
+            <h1>Metric/Imperial unit conversion</h1>
+            <input type="number" placeholder="Type number." id="myInput">
+            <button type="button" onclick="getInputValue();">Get Value</button>
+        </div>
+        <div class="main_result">
+            <h2>Length (Meter/Feet)</h2>
+            <p class="">
+                <span id="calmeter"> </span> meter =
+                <span id="resultfeet"> </span> feet
+            |
+                <span id="calfeet"> </span> feet =
+                <span id="resultmeter"> </span> meter
+            </p>
+
+            <h2>Volume (Liters/Gallons)</h2>
+            <p class="">
+                <span id="calliter"> </span> liters =
+                <span id="resultgallon"> </span> gallons
+            |
+                <span id="calgallon"> </span> gallons =
+                <span id="resultliter"> </span> liters
+            </p>
+
+            <h2>Mass (Kilograms/Pounds)</h2>
+            <p class="">
+                <span id="calkilo"> </span> kilos =
+                <span id="resultpound"> </span> pounds
+            |
+                <span id="calpound"> </span> pounds =
+                <span id="resultkilo"> </span> kilos
+            </p>
+
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>

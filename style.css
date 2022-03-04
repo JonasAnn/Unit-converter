@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    color: rgb(241, 232, 232);
+    font-family: 'Comfortaa', cursive;
+}
+
+main{
+    max-width: 500px;
+    height: auto;
+    margin: 3rem auto 2rem;
+}
+h1,
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+.main_header{
+    height: 30%;
+    text-align: center;
+    padding: 4rem 1rem;
+    background: linear-gradient(246.26deg, #ED4683 0%, #F48E14 100%);
+}
+
+.main_header input{
+    background: none;
+    border: 1px solid rgb(241, 232, 232);
+    width: 80%;
+    margin: 1rem auto 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(241, 232, 232);
+    padding: .5rem .5rem;
+}
+
+.main_header input::placeholder{
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+h1{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.main_result{
+    background: #1F2937;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.main_result p{
+    padding: .5rem 0 1.8rem;
+
+}
+
+button{
+    display: block;
+    padding: .8rem 1.6rem;
+    margin: 1.2rem auto 0;
+    background-color: #1F2937;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+    html{
+        font-size: 14px;
+    }
+  }
+
+  
+@media screen and (max-width: 390px) {
+    html{
+        font-size: 13px;
+    }
+  }
